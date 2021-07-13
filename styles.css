@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #ff0000;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  /* Container for flexboxes */
+  .row {
+    display: -webkit-flex;
+    display: flex;
+  }
+  .column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 600px;
+    text-align: center;
+  }
+  #column-1{
+    background-color: orange;
+  }
+  #column-2{
+    background-color: yellow;
+  }
+  .footer {
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
