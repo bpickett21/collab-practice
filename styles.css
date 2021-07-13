@@ -1,13 +1,14 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
   }
   
   /* Style the header */
-  .header {
+  .nav {
     background-color: #ff0000;
     padding: 30px;
-    text-align: center;
     font-size: 35px;
+    text-align: center;
   }
   
   /* Container for flexboxes */
@@ -39,4 +40,7 @@
       -webkit-flex-direction: column;
       flex-direction: column;
     }
+  }
+  .jumbotron {
+    background-color: white !important;
   }
